@@ -1,0 +1,42 @@
+1.
+py = 'python'
+py[::-1]
+2.
+ap = 7
+ora = 5
+F'I have {ap} apples and {ora} oranges, therefore I have {ap+ora} fruits'
+3.
+char = ['a', 'b', 'c', 'd']
+del char[-1]
+''.join(char)
+4.
+list1 = set(['1', '2', '3', '4', '8', '12'])
+list2 = set(['1', '4', '8', '2'])
+list1.difference(list2)
+5.
+tuple_numbers = (4, 6, 2, 8, 3, 1)
+tom = 'tomato'
+new_tuple = tuple_numbers + (tom,)
+6.
+input_tuple = ('p', 'y', 't', 'h', 'o', 'n')
+''.join(input_tuple)
+7.
+names1 = {'Jack': 25, 'John': 26, 'Emily': 23}
+names2 = {'Carol': 28, 'Walter': 22}
+names1.update(names2)
+8.
+ice_cream_price = {'Chocolate': 200, 'Strawberry': 188, 'Vanilla': 175, 'Caramel': 180}
+sum(ice_cream_price.values())
+9.
+set_numbers = {1, 2, 3, 4, 5}
+set_letters = {'p', 'y', 't', 'h', 'o', 'n'}
+set_numbers.remove(1) - removes "1" from the list
+set_letters.remove('p') - removes "p" from the list
+10.
+color = '''
+[
+("Black", "#000000", "rgb(0, 0, 0)"),
+("Red", "#FF0000", "rgb(255, 0, 0)"),
+("Yellow", "#FFFF00", "rgb(255, 255, 0)")
+]
+'''
